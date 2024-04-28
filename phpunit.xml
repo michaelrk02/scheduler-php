@@ -1,0 +1,13 @@
+<phpunit testdox="true">
+    <testsuites>
+        <testsuite name="scheduler-php">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="TEST_PDO_DSN" value="mysql:host=localhost;dbname=scheduler_php" />
+        <const name="TEST_PDO_USER" value="admin" />
+        <const name="TEST_PDO_PASS" value="" />
+        <const name="TEST_QUEUE_TABLE" value="task_queue" />
+    </php>
+</phpunit>

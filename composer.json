@@ -1,0 +1,30 @@
+{
+    "name": "michaelrk02/scheduler-php",
+    "description": "Simple PHP task scheduler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Michaelrk02\\SchedulerPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Michaelrk02\\SchedulerPhp\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael R. Krisnadhi",
+            "email": "michaelkrisnadhi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": ">=7.4",
+        "ramsey/uuid": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
